@@ -1,6 +1,6 @@
 # ShareText and files
 
-[![ShareText and files](https://img.shields.io/badge/LyAdmin-Bot-blueviolet.svg)](https://t.me/channeltextbot)
+[![ShareText and files](https://img.shields.io/badge/ShareText-Bot-blueviolet.svg)](https://t.me/channeltextbot)
 
 Telegram Бот может скрыть текст сообщения от тех, кто не подписан на твой канал
 
