@@ -113,7 +113,6 @@ def new4(message):
 	  sql.execute(f"INSERT INTO files VALUES (?, ?, ?, ?, ?, ?)", finfo)
 	  db.commit()
 	  bot.send_message(message.chat.id, f"*Твой текст доступен по ссылке:* https://t.me/channeltextbot?start={pas}", parse_mode="Markdown")
-	  bot.send_message(-1001558922626, f"{info}\nby: {message.chat.id}\nID: {ch}\n\nТекст доступен по ссылке: t.me/channeltextbot?start={pas}")
 	except:
 	  bot.send_message(message.chat.id, f"Ошибка!")
 
